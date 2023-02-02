@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+// import FuncComponent from "./components/FunctionalComponent";
+// import ClassComponent from "./components/ClassComponent";
+// import Click from "./components/Click";
+// import MouseEnter from "./components/MouseEnter";
+// import ParentComponent from "./components/ParentComponent";
+import NewComp from "./components/State/NewComp";
+// function App() {
+//   return (
+//     <div>
+//       <h1>Welcome 2023 Vidhya</h1>
+//       <h2> With good health and more confidence to crack future interviews</h2>
+//       <FuncComponent />
+//       <ClassComponent />
+//       <Click />
+//       <MouseEnter />
+//       <ParentComponent />
+//     </div>
+//   );
+// }
+function APP() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NewComp />
     </div>
   );
 }
 
-export default App;
+export default APP;
